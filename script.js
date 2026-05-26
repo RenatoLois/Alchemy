@@ -15,6 +15,7 @@ const images = {
   Na2CO3: "img/Na2CO3.png",
   Na2O: "img/Na2O.png",
   NaCl: "img/NaCl.png",
+  NaClO: "img/NaClO.png",
   NaH: "img/NaH.png",
   NaHCO3: "img/NaHCO3.png",
   NaOH: "img/NaOH.png",
@@ -107,6 +108,7 @@ reactions["H2O"]["C"] = ["H2CO3"];
 reactions["HCl"]["NaOH"] = ["NaCl", "H2O"];
 
 reactions["NaOH"]["CO2"] = ["Na2CO3", "H2O"];
+reactions["NaOH"]["Cl2"] = ["NaClO", "NaCl", "H2O"];
 
 reactions["CH4"]["O2"] = ["CO2", "H2O"];
 
